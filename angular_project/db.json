@@ -1,5 +1,13 @@
 {
-    "users": [],
-    "posts": [],
-    "comments": []
+  "users": [
+    {
+      "email": "kotytane@mailinator.com",
+      "password": "$2a$10$fr9OfocfMnxSZGaUbJKIpO3qfSN5Tm7BxG.9869WohrgbvSOVAwSW",
+      "firstname": "Brody",
+      "lastname": "Hartman",
+      "id": 1
+    }
+  ],
+  "posts": [],
+  "comments": []
 }

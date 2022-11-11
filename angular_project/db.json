@@ -20,6 +20,13 @@
       "firstname": "Claudia",
       "lastname": "Conrad",
       "id": 3
+    },
+    {
+      "email": "nytip@mailinator.com",
+      "password": "$2a$10$CXwx8Z2ZZ.UZn7lPwNmVcODNuobG2KIDtfLEV8Vv824lHl/XnwE1i",
+      "firstname": "Carissa",
+      "lastname": "Clark",
+      "id": 4
     }
   ],
   "posts": [],

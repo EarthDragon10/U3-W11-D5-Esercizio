@@ -33,12 +33,12 @@ export class AuthService {
   signin(obj: RegisterAuth) {
     console.log(obj);
 
-    // return this.http.post(environment.urlAPI + 'login', obj).pipe(
-    //   tap((data) => {
-    //     console.log(data);
-    //     this.isLogin = true;
-    //   })
-    // );
+    return this.http.post(environment.urlAPI + 'login', obj).pipe(
+      tap((data) => {
+        console.log(data);
+        this.isLogin = true;
+      })
+    );
   }
 
   getIsLogin() {

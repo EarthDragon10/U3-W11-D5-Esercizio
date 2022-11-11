@@ -15,6 +15,7 @@ import { HomePage } from './pages/home/home.page';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatNativeDateModule } from '@angular/material/core';
 import { HttpClientModule } from '@angular/common/http';
+import { LoginPage } from './auth/login/login.page';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { HttpClientModule } from '@angular/common/http';
     FooterComponent,
     RegisterPage,
     HomePage,
+    LoginPage,
   ],
   imports: [
     BrowserModule,

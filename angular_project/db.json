@@ -6,6 +6,20 @@
       "firstname": "Brody",
       "lastname": "Hartman",
       "id": 1
+    },
+    {
+      "email": "rybelahex@mailinator.com",
+      "password": "$2a$10$EhxP9S86/U.tbAV65lh9DehFgw2iVT08BDX2cXJUDS6KRhDqjbypW",
+      "firstname": "Vivian",
+      "lastname": "Booker",
+      "id": 2
+    },
+    {
+      "email": "nyja@mailinator.com",
+      "password": "$2a$10$wR2jwXM59N0iU5o2MS/S5OGEn.jaT685fMvFyO9W1HdpgM/o0s/oe",
+      "firstname": "Claudia",
+      "lastname": "Conrad",
+      "id": 3
     }
   ],
   "posts": [],

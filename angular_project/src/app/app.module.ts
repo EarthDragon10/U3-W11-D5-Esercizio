@@ -31,6 +31,7 @@ import { HttpClientModule } from '@angular/common/http';
     NgbModule,
     MaterialExampleModule,
     FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

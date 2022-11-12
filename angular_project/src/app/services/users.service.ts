@@ -12,11 +12,10 @@ export class UsersService {
   constructor(private http: HttpClient) {}
 
   getUsers() {
-    return this.users;
-    // return this.http.get<User[]>(environment.urlAPI + 'users');
+    return this.http.get<User[]>(environment.urlAPI + 'users');
   }
 
   getUser(id: number) {
-    // return this.http.get<User>(environment.urlAPI + 'users/' + id);
+    return this.http.get<User>(environment.urlAPI + 'users/' + id);
   }
 }

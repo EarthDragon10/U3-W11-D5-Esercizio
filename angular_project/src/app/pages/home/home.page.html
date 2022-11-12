@@ -1,15 +1,14 @@
 <div class="container m-5">
     <div class="row">
-        <div class="col d-flex">
-            <h1>Benvenuto nella Home Page</h1>
+        <div class="col">
+            <h1 class="txt-center">Benvenuto nella Home Page</h1>
         </div>
     </div>
     <div class="row">
-        <div class="col ">
-            <button type="button" class="btn btn-success">Vai ai Posts Attivi</button>
-        </div>
-        <div class="col">
-            <button type="button" class="btn btn-danger">Vai ai Posts Non Attivi</button>
+        <div class="col  d-flex justify-content-center gap-5">
+            <button (click)="getActivePosts()" type="button" class="btn btn-success">Vai ai Posts Attivi</button>
+
+            <button (click)="getInactivePosts()" type="button" class="btn btn-danger">Vai ai Posts Non Attivi</button>
         </div>
     </div>
 </div>

@@ -1,0 +1,13 @@
+#login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.error-txt {
+  text-align: center;
+  background-color: rgb(196, 39, 39);
+  margin-top: 10px;
+  padding: 5px 0;
+  border-radius: 8px;
+}

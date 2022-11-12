@@ -1,5 +1,5 @@
 export interface RegisterAuth {
-  id: string;
+  id: number;
   email: string;
   firstname: string;
   lastname: string;

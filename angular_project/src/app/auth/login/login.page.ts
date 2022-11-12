@@ -19,7 +19,7 @@ export class LoginPage implements OnInit {
       (userObj) => {
         console.log(userObj);
         this.error = undefined;
-        localStorage.setItem('userLogged', JSON.stringify(userObj));
+        localStorage.setItem('userLogin', JSON.stringify(userObj));
       },
       (error) => (this.error = error)
     );

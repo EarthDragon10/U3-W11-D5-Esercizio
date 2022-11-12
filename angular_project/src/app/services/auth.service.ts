@@ -10,9 +10,7 @@ import { tap } from 'rxjs';
 export class AuthService {
   private isLogin = false;
 
-  constructor(private http: HttpClient) {
-    // this.restore()
-  }
+  constructor(private http: HttpClient) {}
 
   restore() {
     const userLogin = localStorage.getItem('userLogin');

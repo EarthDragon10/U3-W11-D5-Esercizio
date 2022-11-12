@@ -1,14 +1,20 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   templateUrl: './home.page.html',
-  styleUrls: ['./home.page.scss']
+  styleUrls: ['./home.page.scss'],
 })
 export class HomePage implements OnInit {
+  constructor(private router: Router) {}
 
-  constructor() { }
+  ngOnInit(): void {}
 
-  ngOnInit(): void {
+  getActivePosts() {
+    this.router.navigate(['/active-posts']);
   }
 
+  getInactivePosts() {
+    this.router.navigate(['/inactive-posts']);
+  }
 }

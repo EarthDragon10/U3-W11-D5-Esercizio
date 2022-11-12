@@ -16,6 +16,12 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { MatNativeDateModule } from '@angular/material/core';
 import { HttpClientModule } from '@angular/common/http';
 import { LoginPage } from './auth/login/login.page';
+import { ActivePostsPage } from './pages/active-posts/active-posts.page';
+import { InactivePostsPage } from './pages/inactive-posts/inactive-posts.page';
+import { PostDetailsPage } from './pages/post-details/post-details.page';
+import { UsersPage } from './pages/users/users.page';
+import { UserDetailsPage } from './pages/user-details/user-details.page';
+import { PostCardComponent } from './components/post-card/post-card.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +31,13 @@ import { LoginPage } from './auth/login/login.page';
     RegisterPage,
     HomePage,
     LoginPage,
+    ActivePostsPage,
+    InactivePostsPage,
+    PostDetailsPage,
+    UsersPage,
+    UserDetailsPage,
+    PostCardComponent,
+    PostDetailsPage,
   ],
   imports: [
     BrowserModule,

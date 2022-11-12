@@ -15,7 +15,7 @@ export class RegisterPage implements OnInit {
   constructor(private authService: AuthService, private router: Router) {}
 
   ngOnInit(): void {
-    console.log('Register attivata');
+    // console.log('Register attivata');
   }
 
   onSubmit() {

@@ -27,8 +27,83 @@
       "firstname": "Carissa",
       "lastname": "Clark",
       "id": 4
+    },
+    {
+      "email": "razysihim@mailinator.com",
+      "password": "$2a$10$85aN4GDVEimzxtYREP40delRrSRTEyjWLpBTRGvEES4ky4pIGEK2W",
+      "firstname": "Mannix",
+      "lastname": "Salinas",
+      "id": 5
+    },
+    {
+      "email": "fytymigo@mailinator.com",
+      "password": "$2a$10$D/XC5L0GPnZ1uzv9WAwnFeKM0rzU/1OZT6Y3dKKqYH7t86Efpq9d.",
+      "firstname": "Audrey",
+      "lastname": "Fields",
+      "id": 6
+    },
+    {
+      "email": "pubux@mailinator.com",
+      "password": "$2a$10$4fjBqj5CfX9LYpn4s3jI6uZSkms0QYTATxWO7a2tME8MEQlEoWOu6",
+      "firstname": "Matthew",
+      "lastname": "May",
+      "id": 7
+    },
+    {
+      "email": "cyma@mailinator.com",
+      "password": "$2a$10$xta1fwrTINr7QDodUM.GxeabNl.W37S5gFO5rP7S1PKEqEQuqiRDC",
+      "firstname": "Hasad",
+      "lastname": "Hewitt",
+      "id": 8
+    },
+    {
+      "email": "qikykymeh@mailinator.com",
+      "password": "$2a$10$w2hJ.MysCwcdcC4500o2Z.uo74Q6bg0BCXyXh72.aYIRW0ya7rlw.",
+      "firstname": "Jessica",
+      "lastname": "Sparks",
+      "id": 9
+    },
+    {
+      "email": "cypemumol@mailinator.com",
+      "password": "$2a$10$iVRkpJXTmHi0GvDDpjNXqeZNGTa05ZwWt/S25y0QFhN3.hIslrKTW",
+      "firstname": "Ursula",
+      "lastname": "Stokes",
+      "id": 10
     }
   ],
-  "posts": [],
+  "posts": [
+    {
+      "id": 1,
+      "body": "Sit minim deserunt enim enim nisi. Eiusmod incididunt dolore et ea anim. Non exercitation id voluptate et velit quis anim officia fugiat esse laborum nisi fugiat non.",
+      "title": "Dolor velit sint tempor culpa cupidatat ipsum do ad tempor eiusmod.",
+      "active": false,
+      "type": "news",
+      "author": "marcoss"
+    },
+    {
+      "id": 2,
+      "body": "Sit minim deserunt enim enim nisi. Eiusmod incididunt dolore et ea anim. Non exercitation id voluptate et velit quis anim officia fugiat esse laborum nisi fugiat non.",
+      "title": "Dolor velit sint tempor culpa cupidatat ipsum do ad tempor eiusmod.",
+      "active": true,
+      "type": "education",
+      "author": "Lusa"
+    },
+    {
+      "id": 3,
+      "body": "Sit minim deserunt enim enim nisi. Eiusmod incididunt dolore et ea anim. Non exercitation id voluptate et velit quis anim officia fugiat esse laborum nisi fugiat non.",
+      "title": "Dolor velit sint tempor culpa cupidatat ipsum do ad tempor eiusmod.",
+      "active": false,
+      "type": "politic",
+      "author": "Carlo"
+    },
+    {
+      "id": 4,
+      "body": "Sit minim deserunt enim enim nisi. Eiusmod incididunt dolore et ea anim. Non exercitation id voluptate et velit quis anim officia fugiat esse laborum nisi fugiat non.",
+      "title": "Dolor velit sint tempor culpa cupidatat ipsum do ad tempor eiusmod.",
+      "active": true,
+      "type": "news",
+      "author": "Mario"
+    }
+  ],
   "comments": []
 }

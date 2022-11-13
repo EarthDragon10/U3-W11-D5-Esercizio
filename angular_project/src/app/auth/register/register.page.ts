@@ -1,8 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { NgForm } from '@angular/forms';
-import { Route, Router } from '@angular/router';
+import { Router } from '@angular/router';
 import { AuthService } from 'src/app/services/auth.service';
-import { User } from 'src/app/interfaces/user';
 
 @Component({
   templateUrl: './register.page.html',
@@ -11,6 +10,7 @@ import { User } from 'src/app/interfaces/user';
 export class RegisterPage implements OnInit {
   @ViewChild('f') form!: NgForm;
   error: undefined;
+  hide = true;
 
   constructor(private authService: AuthService, private router: Router) {}
 

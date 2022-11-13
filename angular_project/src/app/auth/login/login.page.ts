@@ -9,6 +9,7 @@ import { AuthService } from 'src/app/services/auth.service';
 export class LoginPage implements OnInit {
   @ViewChild('f') form!: NgForm;
   error: undefined;
+  hide = true;
 
   constructor(private authService: AuthService) {}
 
